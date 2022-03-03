@@ -30,7 +30,7 @@ Por último, para securizar la aplicación se ha utilizado token JWT que se gene
 Se ha utilizado Docker para levantar la BBDD y la aplicación. (Docker con contenedores Linux)
 - Para probar la API, tenemos que abrir la consola PowerShell como administrador. Nos movemos al directorio donde se encuentra el fichero *docker-compose.yml* y lanzamos 
 el comando *docker-compose up*
-- Se ha proporcionado un collection para Postman para poder probar el funcionamiento.
+- Se ha proporcionado un collection para Postman para poder probar el funcionamiento - *Package Management.postman_collection.json*
 - Al securizar la aplicación, cada vez que lanzamos una petición para hacer *Login* se genera un token. Este token se guarda como variable de entorno en el propio Postman
   para poder lanzar el resto de peticiones.
 - **NOTA** Para un correcto funcionamiento, primero se debe realizar una petición de *Register* y posteriormente hacer *Login* con el usuario registrado.
